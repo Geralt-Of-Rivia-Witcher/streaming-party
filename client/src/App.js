@@ -47,7 +47,7 @@ function App() {
       <div className="input-section">
         <input
           type="text"
-          placeholder="Enter video filename (e.g. WednesdayS02E05.mkv)"
+          placeholder="Enter video filename"
           value={filename}
           onChange={(e) => setFilename(e.target.value)}
         />
